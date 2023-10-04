@@ -4,7 +4,7 @@ import MainLayout from '../layout/MainLayout'
 function AboutPage() {
   return (
     <MainLayout>
-      <div>Über Uns</div>
+      <div className='container'>Coming Soon...</div>
     </MainLayout>
   )
 }

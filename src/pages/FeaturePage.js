@@ -4,7 +4,7 @@ import MainLayout from '../layout/MainLayout'
 function FeaturePage() {
   return (
     <MainLayout>
-      <div>Leistungen</div>
+      <div className='container'>Coming Soon...</div>
     </MainLayout>
   )
 }

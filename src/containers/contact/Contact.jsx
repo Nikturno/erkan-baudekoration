@@ -17,15 +17,13 @@ const Contact = () => {
             </div>
             <div class="phone details">
               <i class="fas fa-phone-alt"></i>
-              <div class="topic">Telefon/Fax</div>
-              <div class="text-one">06028 12345</div>
-              <div class="text-two">06028 54321</div>
+              <div class="topic">Telefon</div>
+              <div class="text-one">0151 20007751</div>
             </div>
             <div class="email details">
               <i class="fas fa-envelope"></i>
               <div class="topic">Email</div>
               <div class="text-one">k.erkan@gmx.de</div>
-              <div class="text-two">info@gmail.com</div>
             </div>
           </div>
           <div class="right-side">

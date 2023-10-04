@@ -4,7 +4,7 @@ import MainLayout from '../layout/MainLayout'
 function ImpPage() {
   return (
     <MainLayout>
-      <div>Impressum</div>
+      <div className='container'>Coming Soon...</div>
     </MainLayout>
   )
 }
