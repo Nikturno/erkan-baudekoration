@@ -78,6 +78,7 @@
     .features > div {
       flex: 1;
       margin: 1rem;
+      width: 90%;
     }
 
     .features > div img {
