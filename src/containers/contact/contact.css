@@ -1,0 +1,138 @@
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.box {
+    width: 80%;
+    background: #292929;
+    border-radius: 7px;
+    padding: 40px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+
+.content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+
+.content .left-side .details{
+    margin: 20px;
+    text-align: center;
+  }
+
+.content .left-side .details i{
+    font-size: 50px;
+    color: #ffc13b;
+    margin-bottom: 10px;
+  }
+
+.content .left-side .details .topic{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+    font-family: var(--font-family);
+  }
+
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+    font-size: 18px;
+    color: #afafb6;
+    font-family: var(--font-family);
+  }
+
+.box .content .right-side{
+    height: auto;
+    width: 75%;
+    margin-left: 75px;
+  }
+
+.google-maps {
+  width: 100%;
+}
+  
+@media screen and (max-width: 1050px) {
+  .box .content {
+    flex-direction: column-reverse;
+  }
+
+  .content .left-side::before{
+    display: none;
+  }
+
+  .box .content .left-side{
+    width: 90%;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .content .left-side .details{
+    margin: 20px;
+    text-align: center;
+  }
+
+.content .left-side .details i{
+    font-size: 45px;
+  }
+
+.content .left-side .details .topic{
+    font-size: 25px;
+  }
+
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+    font-size: 20px;
+  }
+
+.box .content .right-side{
+    height: auto;
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+  
+@media screen and (max-width: 700px) {
+      
+}
+
+@media (max-width: 550px) {
+  .box {
+    width: 90%;
+    background: #292929;
+    border-radius: 7px;
+    padding: 20px 25px 40px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+  .google-maps {
+    height: 350px;
+  }
+}
