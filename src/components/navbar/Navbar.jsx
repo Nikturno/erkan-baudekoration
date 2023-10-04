@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
         <div className="navbar-links">
           <div className="navbar-links-container">
-            <p><Link to="/">STARTSEITE</Link></p>
+            <p><Link to="/">test</Link></p>
             <p><Link to="/feature">LEISTUNGEN</Link></p>
             <p><Link to="/about">ÜBER UNS</Link></p>
             <p><Link to="/imp">IMPRESSUM</Link></p>
